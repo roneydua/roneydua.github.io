@@ -22,6 +22,9 @@ author: Roney Duarte
 email: roneyddasilva@gmail.com
 twitter_username: roney_03
 github_username:  roneydua
+gitlab_username: roneydua
+youtube_username: RDS1787
+linkedin_username: roneydua
 description: >- # this means to ignore newlines until "baseurl:"
   Determinação de atitude e controle de quadrirrotores.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,10 +35,7 @@ url: "https://roneydua.github.io" # the base hostname & protocol for your site, 
 # theme: minima
 minima:
   skin: dark
-  # social_links:
-  #   gitlab:
-  #     - username: roneydua
-  #       instance: https://gitlab.com/roneydua
+
     # stackoverflow: "11111"
     # dribbble: jekyll
     # facebook: jekyll
