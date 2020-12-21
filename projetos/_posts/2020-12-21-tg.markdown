@@ -1,5 +1,5 @@
 ---
 category: Projetos
-layout: post
+layout: page
 permalink: plataformaStrapdown
 ---
