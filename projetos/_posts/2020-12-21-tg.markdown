@@ -1,5 +1,5 @@
 ---
 category: Projetos
 layout: post
-permalink: plataformaStrapdown/docs/index.md
+permalink: plataformaStrapdown
 ---
