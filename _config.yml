@@ -20,6 +20,8 @@
 author:
   name: Roney Duarte
   email: "roneyddasilva@gmail.com"
+  twitter: roney_03
+  github: roneydua
 
 
 # twitter_username: roney_03
@@ -39,9 +41,7 @@ plugins:
 theme: minima
 minima:
   skin: dark
-  social_links:
-    twitter: roney_03
-    github: roneydua
+  # social_links:
     # stackoverflow: "11111"
     # dribbble: jekyll
     # facebook: jekyll
