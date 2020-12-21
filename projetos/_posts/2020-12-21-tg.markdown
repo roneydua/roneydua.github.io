@@ -1,5 +1,6 @@
 ---
 category: Projetos
 layout: page
-permalink: plataformaStrapdown
+# permalink: plataformaStrapdow
+path: plataformaStrapdow
 ---
