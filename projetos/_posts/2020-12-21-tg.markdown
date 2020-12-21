@@ -1,6 +1,6 @@
 ---
 category: Projetos
-layout: page
+layout: post
 # permalink: plataformaStrapdow
 path: plataformaStrapdow
 ---
