@@ -17,12 +17,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: Site do RoneyD
 author: Roney Duarte
 email: "roneyddasilva@gmail.com"
-
 twitter_username: roney_03
 github_username:  roneydua
-title: Site do RoneyD
 description: >- # this means to ignore newlines until "baseurl:"
   Determinação de atitude e controle de quadrirrotores.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -31,8 +30,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 
 
-plugins:
-  - jekyll-feed
 
 theme: minima
 minima:
@@ -67,6 +64,8 @@ minima:
 
 
 
+plugins:
+  - jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
