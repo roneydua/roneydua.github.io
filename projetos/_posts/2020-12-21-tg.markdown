@@ -3,4 +3,7 @@ category: Projetos
 layout: post
 # permalink: plataformaStrapdow
 path: plataformaStrapdow
+title: Projeto plataforma strapdown
+# layout: post
+# category: Projetos
 ---
