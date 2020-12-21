@@ -5,5 +5,5 @@
 layout: post
 # title:
 category: Projetos
-permalink: https://github.com/roneydua/plataformaStrapdown/blob/master/docs/index.md
+permalink: plataformaStrapdown
 ---
