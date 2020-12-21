@@ -5,5 +5,5 @@
 layout: post
 # title:
 category: Projetos
+permalink: https://roneydua.github.io/plataformaStrapdown
 ---
-fsdafsdf
