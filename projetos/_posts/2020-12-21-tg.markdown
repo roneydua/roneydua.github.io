@@ -1,6 +1,5 @@
 ---
 title: Projeto plataforma strapdown
 layout: post
-permalink: /plataformaStrapdown/
+# permalink: /plataformaStrapdown/
 category: Projetos
----
