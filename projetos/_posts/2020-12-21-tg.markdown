@@ -1,7 +1,7 @@
 ---
 layout: post
 # permalink: plataformaStrapdow
-title: Projeto plataforma strapdown
+# title: Projeto plataforma strapdown
 path: plataformaStrapdow
 category: Projetos
 ---
