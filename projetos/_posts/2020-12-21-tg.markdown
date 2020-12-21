@@ -5,5 +5,5 @@
 layout: post
 # title:
 category: Projetos
-permalink: plataformaStrapdown
+permalink: plataformaStrapdown/docs/index.md
 ---
