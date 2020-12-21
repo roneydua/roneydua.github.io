@@ -31,10 +31,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 minima:
   skin: dark
-  social_links:
-    gitlab:
-      - username: roneydua
-        instance: https://gitlab.com/roneydua
+  # social_links:
+  #   gitlab:
+  #     - username: roneydua
+  #       instance: https://gitlab.com/roneydua
     # stackoverflow: "11111"
     # dribbble: jekyll
     # facebook: jekyll
