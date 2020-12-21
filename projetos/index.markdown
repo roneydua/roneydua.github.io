@@ -7,4 +7,4 @@ title: Projetos
 longTitle : Projetos e trabalhos para compartilhar
 category: Projetos
 ---
-github.com/<roneydua>/<algimAVR>/blob/master/README.md
+[plataforma strapdown](https://roneydua.github.io/plataformaStrapdown/)
