@@ -17,15 +17,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-author:
-  name: Roney Duarte
-  email: "roneyddasilva@gmail.com"
-  twitter: roney_03
-  github: roneydua
+author: Roney Duarte
+email: "roneyddasilva@gmail.com"
 
-
-# twitter_username: roney_03
-# github_username:  roneydua
+twitter_username: roney_03
+github_username:  roneydua
 title: Site do RoneyD
 description: >- # this means to ignore newlines until "baseurl:"
   Determinação de atitude e controle de quadrirrotores.
@@ -41,7 +37,10 @@ plugins:
 theme: minima
 minima:
   skin: dark
-  # social_links:
+  social_links:
+  gitlab:
+    - username: roneydua
+    instance: https://gitlab.com/roneydua
     # stackoverflow: "11111"
     # dribbble: jekyll
     # facebook: jekyll
@@ -59,9 +58,6 @@ minima:
     #  - username: jekyll2
     #    instance: example.com
 
-    gitlab:
-     - username: roneydua
-       instance: https://gitlab.com/roneydua
      # - username: jekyll2
      #   instance: example.com
 
