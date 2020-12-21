@@ -7,4 +7,3 @@ title: Projetos
 longTitle : Projetos e trabalhos para compartilhar
 category: Projetos
 ---
-[plataforma strapdown](https://roneydua.github.io/plataformaStrapdown/)
