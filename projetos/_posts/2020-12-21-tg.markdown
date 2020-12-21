@@ -2,6 +2,6 @@
 layout: post
 # permalink: plataformaStrapdow
 # title: Projeto plataforma strapdown
-permalink: /plataformaStrapdow/
+permalink: /plataformaStrapdown/
 category: Projetos
 ---
