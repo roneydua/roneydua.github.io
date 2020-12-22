@@ -1,5 +1,5 @@
 ---
 layout: post
-permalink: /plataformaStrapdown/
+permalink: https://github.com/roneydua/plataformaStrapdown/blob/master/docs/index.md
 title: Trabalho de graduação
 ---
