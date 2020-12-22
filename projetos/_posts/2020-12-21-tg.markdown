@@ -5,3 +5,4 @@ title: Trabalho de graduação
 ---
 Ola
 [pagina_tg](../../../../plataformaStrapdown)
+{% include_relative ../../../../plataformaStrapdown %}
