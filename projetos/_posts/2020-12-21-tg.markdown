@@ -4,4 +4,5 @@ layout: post
 permalink: /plataformaStrapdown/
 category: Projetos
 ---
-{% include_relative https://github.com/roneydua/plataformaStrapdown/docs/index.md %}
+<!-- {% include_relative https://github.com/roneydua/plataformaStrapdown/docs/index.md %} -->
+{% capture my_include %}{% https://github.com/roneydua/plataformaStrapdown/docs/index.md %}{% endcapture %}
