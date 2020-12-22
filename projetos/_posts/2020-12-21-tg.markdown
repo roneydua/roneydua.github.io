@@ -3,5 +3,3 @@ layout: post
 permalink: /plataformaStrapdown/
 title: Trabalho de graduação
 ---
-Ola
-[pagina_tg](../../../../plataformaStrapdown)
