@@ -1,8 +1,6 @@
 ---
-title: Projeto plataforma strapdown
-layout: post
-permalink: /plataformaStrapdown/
-category: Projetos
+layout: page
+# permalink: /
+title: Trabalho de graduação
 ---
-<!-- {% include_relative https://github.com/roneydua/plataformaStrapdown/docs/index.md %} -->
-{% capture my_include %}{% https://github.com/roneydua/plataformaStrapdown/docs/index.md %}{% endcapture %}
+[pagina_tg](../../../../plataformaStrapdown/)
