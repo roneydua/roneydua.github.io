@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 # permalink: /
 title: Trabalho de graduação
 ---
-[pagina_tg](../../../../plataformaStrapdown/)
+Ola
+[pagina_tg](../../../../plataformaStrapdown/docs/index.md)
