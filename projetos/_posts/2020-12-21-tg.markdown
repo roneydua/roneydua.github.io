@@ -1,6 +1,6 @@
 ---
 layout: post
-# permalink: /
+permalink: /plataformaStrapdown/
 title: Trabalho de graduação
 ---
 Ola
