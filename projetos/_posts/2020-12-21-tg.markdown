@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: https://github.com/roneydua/plataformaStrapdown/blob/master/docs
+permalink: /plataformaStrapdown/
 title: Trabalho de graduação
 category: Projetos
 ---
