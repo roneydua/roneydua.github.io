@@ -4,4 +4,4 @@ layout: post
 title: Trabalho de graduação
 ---
 Ola
-[pagina_tg](../../../../plataformaStrapdown/docs/index.md)
+[pagina_tg](../../../../plataformaStrapdown)
