@@ -33,8 +33,7 @@ url: "https://roneydua.github.io" # the base hostname & protocol for your site, 
 # Build settings
 # remove minima theme as it is now a regular theme
 # theme: minima
-minima:
-  skin: dark
+
 
 plugins:
   - jekyll-feed
