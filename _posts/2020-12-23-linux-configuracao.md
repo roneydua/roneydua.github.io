@@ -1,7 +1,7 @@
 ---
 layout: external
-# permalink: /plataformaStrapdown/7
-external_url: https://github.com/roneydua/comandosNovaInstalacao/blob/master/docs/index.md
+permalink: /comandosNovaInstalacao/
+# external_url: https://roneydua.github.io/comandosNovaInstalacao
 title: Setup para nova instalação
 category: Projetos
 external_site: comandosNovaInstalacao
