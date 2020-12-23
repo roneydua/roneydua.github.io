@@ -1,7 +1,7 @@
 ---
 layout: external
-# permalink: /plataformaStrapdown/7
-external_url: https://github.com/roneydua/plataformaStrapdown
+permalink: /plataformaStrapdown/
+# external_url: https://github.com/roneydua/plataformaStrapdown
 title: Trabalho de graduação
 category: Projetos
 external_site: plataformaStrapdown

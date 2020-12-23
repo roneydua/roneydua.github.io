@@ -34,6 +34,7 @@ url: "https://roneydua.github.io" # the base hostname & protocol for your site, 
 # remove minima theme as it is now a regular theme
 # theme: minima
 
+search: true
 
 plugins:
   - jekyll-feed

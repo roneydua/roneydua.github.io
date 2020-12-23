@@ -3,6 +3,6 @@ layout: external
 permalink: /comandosNovaInstalacao/
 # external_url: https://roneydua.github.io/comandosNovaInstalacao
 title: Setup para nova instalação
-category: Projetos
+category: Computacao
 external_site: comandosNovaInstalacao
 ---
