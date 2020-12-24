@@ -1,18 +1,17 @@
 ---
-layout: page
-# permalink: /plataformaStrapdown/
-# external_url: https://github.com/roneydua/plataformaStrapdown
-title: Trabalho de graduação
+layout: post
+title: Plataforma Strapdown
 category: Projetos
 show_excerpts: true
-# external_site: plataformaStrapdown
 ---
-Neste projeto é apresentado uma forma de computar o
-
+Projeto de uma plataforma Strapdown composta de sensores inerciais e o microcontrolador ESP-32 da Espressif. \
+[![Watch the video](https://img.youtube.com/vi/BP_7Wy2Bjks/hqdefault.jpg)](https://www.youtube.com/watch?v=BP_7Wy2Bjks) \
 <!--excerpt-->
+Neste projeto é apresentado métodos de calibração de três sensores:
+- Acelerômetro;
+- Giroscópio; e
+- Magnetômetro.
 
-[Plataforma Strapdown](https://roneydua.github.io/plataformaStrapdown)
+Todo o processo se passa em um sistema embaracado composto pelo microcontrolador ESP-32 da Espressif e a IMU MPU-9250 da Invensense.
 
-[Repositório GitHub](https://github.com/roneydua/plataformaStrapdown)
-
-[![Watch the video](https://img.youtube.com/vi/BP_7Wy2Bjks/hqdefault.jpg)](https://www.youtube.com/watch?v=BP_7Wy2Bjks)
+Para mais informações acesse o [repositório GitHub](https://github.com/roneydua/plataformaStrapdown) ou o [site da plataforma strapdown](https://roneydua.github.io/plataformaStrapdown) que contém as informação e o código.
