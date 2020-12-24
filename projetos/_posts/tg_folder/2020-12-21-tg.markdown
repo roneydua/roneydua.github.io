@@ -7,10 +7,25 @@ Projeto de uma plataforma Strapdown composta de sensores inerciais e o microcont
 [![Watch the video](https://img.youtube.com/vi/BP_7Wy2Bjks/hqdefault.jpg)](https://www.youtube.com/watch?v=BP_7Wy2Bjks)
 <!--excerpt-->
 
+Obter a atitude de drones, veículos subaquáticos e outros dispositivos com 6 graus de liberdade é uma das tarefas mais desafiadoras no projeto de sistemas de controle de navegação. Por este motivo, muitos projetos utilizam programas proprietários ou limitam-se á simulações. Neste trabalho é apresentado um sistema completo para determinação de atitude capaz de fornecer medidas calibradas e atitude estimada utilizando sensores MEMS, com microcontrolador de baixo custo e baixo consumo energético. Acelerômetro e magnetômetro são calibrados online no sistema embarcado como emprego do método dos mínimos quadrados sem auxílio de equipamentos externos. O estado estimado é computado com um rápido algorítimo algébrico de quatérnios consumindo menos de 1,5ms com emprego de um filtro aditivo de Kalman linear.
+
 Neste projeto é apresentado métodos de calibração de três sensores:
 - Acelerômetro;
 - Giroscópio; e
 - Magnetômetro.
+
+# Grupo de trabalho
+
+Este trabalho faz parte de um projeto que visa o desenvolvimento  de protótipo de veículos não tripulados. Para saber mais acesse:
+[Navigation, Position and Time in Unmanned Aerial Vehicles in environments with no GPS/GNSS signal](https://osf.io/7jeck/)
+
+# Trabalho de graduação e publicação
+Este projeto é resultado do [Trabalho de Graduação de Engenharia Aeroespacial](https://github.com/roneydua/plataformaStrapdown/blob/master/pdfFiles/TG.pdf)
+
+[Artigo](<https://www.sba.org.br/open_journal_systems/index.php/sba/article/view/1155/1082>) publico no Congresso Brasileiro de Automática no ano 2020.
+
+
+
 
 
 A base desenvolvida possui o sensor preso como pode ser visto na figura abaixo:
