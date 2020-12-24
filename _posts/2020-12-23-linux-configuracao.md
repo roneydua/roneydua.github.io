@@ -42,8 +42,6 @@ Quando precisamos formatar o PC uma tafera muito chata é ter que instalar todos
 # Scrips para instação de programas básicos
 O script `main.sh` obteve exito nas distribuições mais recentes do Debian 64-bits.
 
-
-
-Configura os programas:
-- Copia as configurações do Conky na pasta [conky](conky/conky.config)
-- Configura o tmux
+Alén de instalar os Conky e o Tmux, o `main.sh`  configura esses programas da seguinte forma:
+- Copia as configurações do Conky na pasta [conky](conky/conky.config); e
+- Configura o tmux movendo as pastas `.tmux` para os locais certos.
