@@ -7,7 +7,7 @@ category: Computacao
 # external_site: comandosNovaInstalacao
 ---
 
-Quando precisamos formatar o PC uma tarefa muito chata é ter que instalar todos os programas que utilizamos. No Linux isso pode ser feito de forma muito simples com scripts que podem ser executados no terminal.
+Quando precisamos formatar o PC uma tarefa muito chata é ter que instalar todos os programas que utilizamos. No Linux isso pode ser feito de forma muito simples com scripts que podem ser executados no terminal.<!--excerpt-->
 <!-- TOC -->
 
 - [Utilização individual de cada script](#utilização-individual-de-cada-script)

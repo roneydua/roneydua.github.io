@@ -4,6 +4,6 @@
 
 layout: home
 ---
-{% if post.excerpt %}
+<!-- {% if post.excerpt %}
     {{ post.excerpt }}
-{% endif %}
+{% endif %} -->
