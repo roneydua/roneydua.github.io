@@ -1,8 +1,8 @@
 ---
 layout: post
-# permalink: /rpmPcnt/
+permalink: /rpmPcnt/
 # external_url: https://roneydua.github.io/comandosNovaInstalacao
-title: Contador de RPM (PCNT) 2
+title: Contador de RPM (PCNT)
 category: Computaca
-# external_site: rpmPcnt
+external_site: rpmPcnt
 ---
