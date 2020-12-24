@@ -2,7 +2,6 @@
 layout: post
 title: Plataforma Strapdown
 category: Projetos
-show_excerpts: true
 ---
 Projeto de uma plataforma Strapdown composta de sensores inerciais e o microcontrolador ESP-32 da Espressif. \
 [![Watch the video](https://img.youtube.com/vi/BP_7Wy2Bjks/hqdefault.jpg)](https://www.youtube.com/watch?v=BP_7Wy2Bjks)
@@ -13,6 +12,6 @@ Neste projeto é apresentado métodos de calibração de três sensores:
 - Giroscópio; e
 - Magnetômetro.
 
-Todo o processo se passa em um sistema embaracado composto pelo microcontrolador ESP-32 da Espressif e a IMU MPU-9250 da Invensense.
+Todo os processo se passa em um sistema embarcado composto pelo microcontrolador ESP-32 da Espressif e a IMU MPU-9250 da Invensense.
 
 Para mais informações acesse o [repositório GitHub](https://github.com/roneydua/plataformaStrapdown) que contém as informação e o código.

@@ -26,7 +26,7 @@ gitlab_username: roneydua
 youtube_username: RDS1787
 linkedin_username: roneydua
 description: >- # this means to ignore newlines until "baseurl:"
-  Determinação de atitude e controle de quadrirrotores.
+  Divulgação da minha pesquisa que trata determinação de atitude e controle de quadrirrotores. De vez em quando posto sobre  ferramentas computacionais como Latex, python e c++. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://roneydua.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
