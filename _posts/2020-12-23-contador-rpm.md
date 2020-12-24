@@ -6,4 +6,4 @@ title: Contador de RPM (PCNT)
 category: Computacão
 external_site: rpmPcnt
 ---
-{% include_relative ../projetos/index.md %}
+{% include_relative ../projetos/kk.md %}
