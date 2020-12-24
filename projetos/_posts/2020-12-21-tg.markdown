@@ -1,8 +1,18 @@
 ---
-layout: external
-permalink: /plataformaStrapdown/
+layout: page
+# permalink: /plataformaStrapdown/
 # external_url: https://github.com/roneydua/plataformaStrapdown
 title: Trabalho de graduação
 category: Projetos
-external_site: plataformaStrapdown
+show_excerpts: true
+# external_site: plataformaStrapdown
 ---
+Neste projeto é apresentado uma forma de computar o
+
+<!--excerpt-->
+
+[Plataforma Strapdown](https://roneydua.github.io/plataformaStrapdown)
+
+[Repositório GitHub](https://github.com/roneydua/plataformaStrapdown)
+
+[![Watch the video](https://img.youtube.com/vi/BP_7Wy2Bjks/hqdefault.jpg)](https://www.youtube.com/watch?v=BP_7Wy2Bjks)

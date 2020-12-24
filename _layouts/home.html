@@ -18,12 +18,15 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+            {{ post.title | escape }} </a>
         </h3>
-        {%- if site.show_excerpts -%}
+        <!-- {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-        {%- endif -%}
+        {%- endif -%} -->
+        {{ post.excerpt }}
+    {% if post.content contains site.excerpt_separator %}
+      <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+    {% endif %}
       </li>
       {%- endfor -%}
     </ul>
@@ -32,3 +35,5 @@ layout: default
   {%- endif -%}
 
 </div>
+
+{{ post.content | strip_html | truncatewords:75 }}
