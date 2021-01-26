@@ -1,6 +1,0 @@
-<map id="observacao_funcao" name="observacao_funcao">
-<area shape="rect" id="node2" href="$main_8cpp.html#a6dc6502099e1f0a9daef15ddc11ca7c9" title="balanca" alt="" coords="224,5,291,32"/>
-<area shape="rect" id="node3" href="$classBalanca.html#a0dfa76bb1f5c696300c0b1df2d01377e" title="Balanca::get_carga" alt="" coords="190,56,325,83"/>
-<area shape="rect" id="node4" href="$classInstrumentacao.html#a9ac9cb4ad2a1e0fa7c3032e66e2a2604" title="Instrumentacao::get\l_corrente" alt="" coords="188,107,327,149"/>
-<area shape="rect" id="node5" href="$classInstrumentacao.html#a3ba28458b93df05d671fd71cccf51431" title="Instrumentacao::get\l_voltage" alt="" coords="188,173,327,214"/>
-</map>

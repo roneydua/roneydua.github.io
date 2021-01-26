@@ -1,8 +1,0 @@
-<map id="src/main.cpp" name="src/main.cpp">
-<area shape="rect" id="node2" href="$Balanca_8h.html" title="Fornece a carga sentida pela celula de carga em kilogramas. " alt="" coords="472,80,552,107"/>
-<area shape="rect" id="node4" href="$Instrumentacao_8h.html" title="Biblioteca que fornece medidas de tensoa e correntem em Volts e amperes respectivamente. " alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node5" href="$Motores_8h.html" title="Motores.h" alt="" coords="152,80,232,107"/>
-<area shape="rect" id="node7" href="$funcoesImpressao_8h.html" title="funcoesImpressao.h" alt="" coords="257,80,397,107"/>
-<area shape="rect" id="node8" href="$rpm_8h.html" title="rpm.h" alt="" coords="577,80,631,107"/>
-<area shape="rect" id="node11" href="$gpios_8h.html" title="gpios.h" alt="" coords="656,80,720,107"/>
-</map>
