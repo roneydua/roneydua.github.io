@@ -7,3 +7,4 @@ title: planta motor drone
 category: Projetos
 tag:
 ---
+Documentação do projeto de análise no dominínio da frequência de um motor sem escovas.
