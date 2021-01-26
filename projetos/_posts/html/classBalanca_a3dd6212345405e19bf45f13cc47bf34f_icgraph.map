@@ -1,9 +1,0 @@
-<map id="Balanca::leiaSensor" name="Balanca::leiaSensor">
-<area shape="rect" id="node2" href="$classBalanca.html#a94b3e0dd836dae8ebd0bdc49fdbeda8f" title="Balanca::calculaValorAssintotico" alt="" coords="192,5,405,32"/>
-<area shape="rect" id="node6" href="$classBalanca.html#a2806da4cee1262de88ce7d174d5cf391" title="Balanca::update" alt="" coords="241,56,357,83"/>
-<area shape="rect" id="node3" href="$classBalanca.html#a02aeed83880b6d682344b689da2eace9" title="Balanca::calibracao" alt="" coords="453,5,589,32"/>
-<area shape="rect" id="node4" href="$classBalanca.html#a5471cbf64777c8a2fdf0d6f776cc1fc9" title="Balanca::begin" alt="" coords="637,5,745,32"/>
-<area shape="rect" id="node5" href="$classBalanca.html#aac798fc07c0d378029e23320e93c9596" title="Balanca::Balanca" alt="" coords="793,5,917,32"/>
-<area shape="rect" id="node7" href="$main_8cpp.html#a98de3aa0244d97456edcb6a47f42b307" title="lowPass" alt="" coords="485,56,557,83"/>
-<area shape="rect" id="node8" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="664,56,719,83"/>
-</map>
