@@ -1,0 +1,6 @@
+<map id="low_pass" name="low_pass">
+<area shape="rect" id="node2" href="$main_8cpp.html#a6dc6502099e1f0a9daef15ddc11ca7c9" title="balanca" alt="" coords="177,5,243,32"/>
+<area shape="rect" id="node3" href="$classBalanca.html#a2806da4cee1262de88ce7d174d5cf391" title="Balanca::update" alt="" coords="152,56,268,83"/>
+<area shape="rect" id="node5" href="$classInstrumentacao.html#a00d64f2e0a369cf1e5b1493ef16dc418" title="Instrumentacao::update\l_sensores" alt="" coords="131,107,289,149"/>
+<area shape="rect" id="node4" href="$classBalanca.html#a06a0cf72d0b0249cc39e5b8c33e25b93" title="Balanca::leia_sensor" alt="" coords="337,56,480,83"/>
+</map>

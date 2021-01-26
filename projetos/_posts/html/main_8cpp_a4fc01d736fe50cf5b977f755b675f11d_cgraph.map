@@ -1,0 +1,14 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$main_8cpp.html#a5197facaad96955200db0c458ed2158b" title="observacao_funcao" alt="" coords="108,129,243,156"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a00f04c0544a8301f154ee188d8066d17" title="passa_baixa" alt="" coords="128,239,223,265"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#af2be1f8b16d62cb81df1903ca81e4be7" title="rampa" alt="" coords="146,356,205,383"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a6dc6502099e1f0a9daef15ddc11ca7c9" title="balanca" alt="" coords="337,188,403,215"/>
+<area shape="rect" id="node4" href="$classBalanca.html#a0dfa76bb1f5c696300c0b1df2d01377e" title="Balanca::get_carga" alt="" coords="303,5,437,32"/>
+<area shape="rect" id="node5" href="$classInstrumentacao.html#a9ac9cb4ad2a1e0fa7c3032e66e2a2604" title="Instrumentacao::get\l_corrente" alt="" coords="301,57,439,98"/>
+<area shape="rect" id="node6" href="$classInstrumentacao.html#a3ba28458b93df05d671fd71cccf51431" title="Instrumentacao::get\l_voltage" alt="" coords="301,122,439,163"/>
+<area shape="rect" id="node8" href="$classBalanca.html#a2806da4cee1262de88ce7d174d5cf391" title="Balanca::update" alt="" coords="312,239,428,265"/>
+<area shape="rect" id="node10" href="$classInstrumentacao.html#a00d64f2e0a369cf1e5b1493ef16dc418" title="Instrumentacao::update\l_sensores" alt="" coords="291,290,449,331"/>
+<area shape="rect" id="node9" href="$classBalanca.html#a06a0cf72d0b0249cc39e5b8c33e25b93" title="Balanca::leia_sensor" alt="" coords="497,239,640,265"/>
+<area shape="rect" id="node12" href="$main_8cpp.html#a39f6ef025d7b7432e57600e2ed1866b2" title="botaoConfirma" alt="" coords="317,356,423,383"/>
+<area shape="rect" id="node13" href="$classMotores.html#ac6264dc2b71015a3c9641025151edd4a" title="Motores::set_vel_mot" alt="" coords="296,407,444,433"/>
+</map>

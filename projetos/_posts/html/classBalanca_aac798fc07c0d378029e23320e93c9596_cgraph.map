@@ -1,0 +1,6 @@
+<map id="Balanca::Balanca" name="Balanca::Balanca">
+<area shape="rect" id="node2" href="$classBalanca.html#a5471cbf64777c8a2fdf0d6f776cc1fc9" title="Balanca::begin" alt="" coords="177,13,285,39"/>
+<area shape="rect" id="node3" href="$classBalanca.html#a02aeed83880b6d682344b689da2eace9" title="Balanca::calibracao" alt="" coords="333,13,469,39"/>
+<area shape="rect" id="node4" href="$classBalanca.html#ae478d0eb09e07701ccbffa6352a3c806" title="Balanca::calcula_valor\l_assintotico" alt="" coords="517,5,671,47"/>
+<area shape="rect" id="node5" href="$classBalanca.html#a06a0cf72d0b0249cc39e5b8c33e25b93" title="Balanca::leia_sensor" alt="" coords="719,13,861,39"/>
+</map>

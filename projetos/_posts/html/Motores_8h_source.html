@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simonk ESP32: Código-Fonte de lib/MOTORES/Motores.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Simonk ESP32
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_39c7dc484126c690eab758240f2a6725.html">MOTORES</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Motores.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Motores_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef Motores_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define Motores_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Arduino.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classMotores.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMotores.html">Motores</a> {</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMotores.html#a14c1a0bad96d6cefd375377a6afb03d6">   10</a></span>&#160;  gpio_num_t <a class="code" href="classMotores.html#a14c1a0bad96d6cefd375377a6afb03d6">motor_pin</a>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMotores.html#aa6ba08a3abc1f9f936cb1f4b97dd043a">   12</a></span>&#160;  uint8_t <a class="code" href="classMotores.html#aa6ba08a3abc1f9f936cb1f4b97dd043a">canal</a> = 0;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMotores.html#a3f2679c95473f8ee07a7645c7ad64d5d">   14</a></span>&#160;  <span class="keyword">const</span> uint16_t <a class="code" href="classMotores.html#a3f2679c95473f8ee07a7645c7ad64d5d">tempo_calibracao</a> = 8000;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMotores.html#af2f825f86a3524c6b9097dedd4e9bdea">   16</a></span>&#160;  <span class="keyword">const</span> uint16_t <a class="code" href="classMotores.html#af2f825f86a3524c6b9097dedd4e9bdea">resolucao</a> = 14;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMotores.html#ac05467a9227b8ba9c86b2c9d6c08a2c0">   18</a></span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="classMotores.html#ac05467a9227b8ba9c86b2c9d6c08a2c0">freq</a> = 470.0;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <a class="code" href="classMotores.html#a57e326b48e16bc126a73aed483114668">Motores</a>(gpio_num_t _motor_pin, uint8_t _canal = 0);</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classMotores.html#a10e9590d22b84ea6d5316ebceff736d0">   23</a></span>&#160;  uint16_t <a class="code" href="classMotores.html#a10e9590d22b84ea6d5316ebceff736d0">min_vel</a>;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classMotores.html#ae36afe438037117f406f7ddf4903fd76">   25</a></span>&#160;  uint16_t <a class="code" href="classMotores.html#ae36afe438037117f406f7ddf4903fd76">max_vel</a>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="comment">// static void static_update_rpm(void *pvParameter);</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="comment">// Rpm rpm(GPIO_NUM_4, PCNT_UNIT_0, 100);</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="comment">// const int canal_2 = 2;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="comment">// const int canal_3 = 3;</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="comment">// const int canal_4 = 4;</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="comment">// define freq e a resolucao do PWM</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="comment">// atribui o menor valor par</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="comment">// indica onde esta ligado cada motor</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="comment">// const int motor2 = 27;</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="comment">// const int motor3 = 25;</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="comment">// const int motor4 = 26;</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classMotores.html#a1895e0f2bc08b754d2c119a7d5fee68a">inicializa</a>();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classMotores.html#abd97787aacf452410d0fb21bbe5c9287">set_portas</a>();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classMotores.html#aa925c45cc263120106dacb8c5802d20b">calibra</a>();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="comment">// void intercalaMotores(int _valor);</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classMotores.html#ac6264dc2b71015a3c9641025151edd4a">set_vel_mot</a>(uint16_t vel);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="comment">// void setVelMotor2(int vel);</span></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="comment">// void setVelMotor3(int vel);</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="comment">// void setVelMotor4(int vel);</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classMotores_html_abd97787aacf452410d0fb21bbe5c9287"><div class="ttname"><a href="classMotores.html#abd97787aacf452410d0fb21bbe5c9287">Motores::set_portas</a></div><div class="ttdeci">void set_portas()</div><div class="ttdef"><b>Definition:</b> Motores.cpp:62</div></div>
+<div class="ttc" id="classMotores_html_a1895e0f2bc08b754d2c119a7d5fee68a"><div class="ttname"><a href="classMotores.html#a1895e0f2bc08b754d2c119a7d5fee68a">Motores::inicializa</a></div><div class="ttdeci">void inicializa()</div><div class="ttdef"><b>Definition:</b> Motores.cpp:26</div></div>
+<div class="ttc" id="classMotores_html"><div class="ttname"><a href="classMotores.html">Motores</a></div><div class="ttdef"><b>Definition:</b> Motores.h:6</div></div>
+<div class="ttc" id="classMotores_html_ac05467a9227b8ba9c86b2c9d6c08a2c0"><div class="ttname"><a href="classMotores.html#ac05467a9227b8ba9c86b2c9d6c08a2c0">Motores::freq</a></div><div class="ttdeci">const double freq</div><div class="ttdoc">Frequencia do PWM de controle. </div><div class="ttdef"><b>Definition:</b> Motores.h:18</div></div>
+<div class="ttc" id="classMotores_html_aa6ba08a3abc1f9f936cb1f4b97dd043a"><div class="ttname"><a href="classMotores.html#aa6ba08a3abc1f9f936cb1f4b97dd043a">Motores::canal</a></div><div class="ttdeci">uint8_t canal</div><div class="ttdoc">Canal utilizado pelo motor. </div><div class="ttdef"><b>Definition:</b> Motores.h:12</div></div>
+<div class="ttc" id="classMotores_html_ac6264dc2b71015a3c9641025151edd4a"><div class="ttname"><a href="classMotores.html#ac6264dc2b71015a3c9641025151edd4a">Motores::set_vel_mot</a></div><div class="ttdeci">void set_vel_mot(uint16_t vel)</div><div class="ttdef"><b>Definition:</b> Motores.cpp:39</div></div>
+<div class="ttc" id="classMotores_html_a14c1a0bad96d6cefd375377a6afb03d6"><div class="ttname"><a href="classMotores.html#a14c1a0bad96d6cefd375377a6afb03d6">Motores::motor_pin</a></div><div class="ttdeci">gpio_num_t motor_pin</div><div class="ttdoc">GPIO do motor. </div><div class="ttdef"><b>Definition:</b> Motores.h:10</div></div>
+<div class="ttc" id="classMotores_html_a3f2679c95473f8ee07a7645c7ad64d5d"><div class="ttname"><a href="classMotores.html#a3f2679c95473f8ee07a7645c7ad64d5d">Motores::tempo_calibracao</a></div><div class="ttdeci">const uint16_t tempo_calibracao</div><div class="ttdoc">Tempo para calibracao entre atribuicao de minimo e maximo. [millisegundos]. </div><div class="ttdef"><b>Definition:</b> Motores.h:14</div></div>
+<div class="ttc" id="classMotores_html_ae36afe438037117f406f7ddf4903fd76"><div class="ttname"><a href="classMotores.html#ae36afe438037117f406f7ddf4903fd76">Motores::max_vel</a></div><div class="ttdeci">uint16_t max_vel</div><div class="ttdef"><b>Definition:</b> Motores.h:25</div></div>
+<div class="ttc" id="classMotores_html_a57e326b48e16bc126a73aed483114668"><div class="ttname"><a href="classMotores.html#a57e326b48e16bc126a73aed483114668">Motores::Motores</a></div><div class="ttdeci">Motores(gpio_num_t _motor_pin, uint8_t _canal=0)</div><div class="ttdef"><b>Definition:</b> Motores.cpp:14</div></div>
+<div class="ttc" id="classMotores_html_af2f825f86a3524c6b9097dedd4e9bdea"><div class="ttname"><a href="classMotores.html#af2f825f86a3524c6b9097dedd4e9bdea">Motores::resolucao</a></div><div class="ttdeci">const uint16_t resolucao</div><div class="ttdoc">Resolucao do controle PWM. </div><div class="ttdef"><b>Definition:</b> Motores.h:16</div></div>
+<div class="ttc" id="classMotores_html_aa925c45cc263120106dacb8c5802d20b"><div class="ttname"><a href="classMotores.html#aa925c45cc263120106dacb8c5802d20b">Motores::calibra</a></div><div class="ttdeci">void calibra()</div><div class="ttdef"><b>Definition:</b> Motores.cpp:76</div></div>
+<div class="ttc" id="classMotores_html_a10e9590d22b84ea6d5316ebceff736d0"><div class="ttname"><a href="classMotores.html#a10e9590d22b84ea6d5316ebceff736d0">Motores::min_vel</a></div><div class="ttdeci">uint16_t min_vel</div><div class="ttdef"><b>Definition:</b> Motores.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
