@@ -1,2 +1,2 @@
 
-{% include ../_includes/html/files.html %}
+{% include ../_includes/html/index.html %}
