@@ -2,7 +2,7 @@
 layout: post
 # permalink: https://roneydua.github.io/rpmPcnt
 # permalink: ./html/index.html
-title: planta motor drone
+title: planta motor drone (em construção)
 category: Projetos
 tag:
 ---
