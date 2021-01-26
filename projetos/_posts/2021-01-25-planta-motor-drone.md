@@ -1,7 +1,7 @@
 ---
 layout: post
 # permalink: https://roneydua.github.io/rpmPcnt
-permalink: ./html/index.html
+# permalink: ./html/index.html
  # external_url: https://roneydua.github.io/comandosNovaInstalacao
 title: planta motor drone
 category: Projetos
