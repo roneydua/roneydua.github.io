@@ -57,6 +57,7 @@ Quando precisamos formatar o PC uma tarefa muito chata é ter que instalar todos
 38. structure-view@0.2.1
 39. termination@0.7.6
 40. tool-bar@1.4.4
+  - Instala o Clang.
 - `auto_completar.sh` -  Habilita o autocompletar no Shell terminal.
 - `corrige_problema_sudo.sh` - Adiciona o usuário suda a lista de usuários.
 - `latex_install.sh` - Instala Lyx e texlive.
