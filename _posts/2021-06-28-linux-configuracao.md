@@ -18,7 +18,7 @@ Quando precisamos formatar o PC uma tarefa muito chata é ter que instalar todos
 # Utilização individual de cada script
 - `install_atom.sh` -  Instala a IDE ATOM instalando os pacotes na
   - Instala o Clang. Ferramenta de auto completar
-  - `install_eigen.sh` - instala biblioteca Eigen na pasta `/usr/local/include/eigen3`
+  - `install_eigen.sh` - instala biblioteca Eigen na pasta `/usr/local/include/eigen3`.
 1. Zen@0.18.0
 2. atom-doxit@0.2.1
 3. autocomplete@0.47.0
